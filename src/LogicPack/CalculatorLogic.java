@@ -31,7 +31,7 @@ public class CalculatorLogic {
     private void calculateResult() throws Exception{
         Operation operation = OPERATION.get(operator);
         if (operation !=null)
-            operation.getResultFor(firstNumber, secondNumber);
+            result = operation.getResultFor(firstNumber, secondNumber);
         else
             throw new UnsupportedException();
     }

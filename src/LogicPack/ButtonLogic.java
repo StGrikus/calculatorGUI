@@ -6,7 +6,7 @@ public class ButtonLogic {
     private char operation;
 
     public void setValue(double value) {
-        this.value = value;
+        this.value = this.value * 10 + value;
     }
 
     public void setValue(char operation){
