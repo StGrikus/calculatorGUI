@@ -7,31 +7,13 @@
 import LogicPack.ButtonLogic;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class CalculatorGui extends javax.swing.JFrame{
 
     private ButtonLogic buttonLogic;
 
-    private JFrame window;
-
-    public CalculatorGui(JFrame window, JButton a1Button, JButton a2Button, JButton a3Button, JButton a4Button, JButton a5Button, JButton a6Button, JButton a7Button, JButton a8Button, JButton a9Button, JButton a0Button, JButton button11, JButton button12, JButton button13, JButton button14, JButton cButton, JButton button16, JButton exitButton) {
-        this.a1Button = a1Button;
-        this.a2Button = a2Button;
-        this.a3Button = a3Button;
-        this.a4Button = a4Button;
-        this.a5Button = a5Button;
-        this.a6Button = a6Button;
-        this.a7Button = a7Button;
-        this.a8Button = a8Button;
-        this.a9Button = a9Button;
-        this.a0Button = a0Button;
-        this.button11 = button11;
-        this.button12 = button12;
-        this.button13 = button13;
-        this.button14 = button14;
-        CButton = cButton;
-        this.button16 = button16;
-        this.exitButton = exitButton;
+    public CalculatorGui() {
         buttonLogic = new ButtonLogic();
     }
 
